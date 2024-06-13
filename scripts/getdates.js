@@ -1,3 +1,4 @@
+
 const year = document.getElementById("actualyear");
 const lastModified = document.getElementById("lastM");
 
@@ -19,4 +20,5 @@ const options = {
 const formattedDate = LastModifiedDate.toLocaleDateString(undefined, options);
 
 lastModified.textContent = `Last Modified on : ${formattedDate}`;
+//The color in the html text on the footer..
 lastModified.style.color = "white";
