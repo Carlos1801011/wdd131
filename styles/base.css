@@ -161,7 +161,7 @@ section li {
   width: 20%;
   height: 20%;
   max-width: 100%;
-  margin: 1rem 1;
+  margin: 1rem 0;
   border: inset 3px rgb(0, 0, 0);
   border-radius: 15px;
 }
