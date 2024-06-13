@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--Name of the autor-->
+    <meta name="author" content="Carlos Alvanez">
+    <link rel="shortcut icon" href="images/2560px-BYU-Pathway_Worldwide_Monogram.svg.png">
+    <meta name="description" content="WDD 131- Dynamic Web Fundamentals">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <title>WDD 131-Dynamic Web Fundamentals- Carlos Alvanez</title>
 </head>
+
 <body>
-    <h1>WDD 131 - Carlos Alvanez</h1>
+    <header>
+        <h1>WDD 131-Dynamic Web Fundamentals- Carlos Alvanez</h1>
+        <nav>
+            <ul>
+                <!--the table and links with indication to open new tab when clicked-->
+                <li><a href="https://sv.linkedin.com/in/carlos-alvanez-b28792205?original_referer=https%3A%2F%2Fwww.google.com%2F" title="Linkedin" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                <li><a href="https://byui.instructure.com/" title="I-Learn" target="_blank" rel="noopener noreferrer">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/jer/15?lang=eng" title="Scripture" target="_blank" rel="noopener noreferrer">Scripture</a></li>
+                <li><a href="#" title="Final Project">Final Project</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="img-space">
+            <h2>About Me</h2>
+            <div class="my-info">
+                <p>My name is Carlos Alvanez, I am from the country of El Salvador and I grew up in the city of Ahuachapan. I am a student at Brigham Young University studying software development. I really like everything that has to do with computers or electronic things. I like it. play video games and go to the gym.</p>
+                <img src="images/WhatsApp Image 2024-05-26 at 3.35.08 PM.jpeg" alt="Mypersonal foto " class="myimg">
+
+            </div>
+            <h2 id="cityN">El Salvador</h2>
+            <hr>
+            <div class="city-info">
+                <div class="flag-img">
+                    <!--The flag image with height and with including center-->
+                    <center><img src="images/El salvador.webp" alt="FLag of el salvador" height="598" width="398"></center>
+                </div>
+                <h3 class="flag-txt">El Salvador flag</h3>
+                <p>El Salvador is a mountainous and volcanic country, crossed from East to West by a large chain in which several volcanoes stand out. 
+                The most notable rivers are the Paz,the Guascorán and the Lempa. The climate is warm and humid on the coasts and lowlands, 
+                and temperate and very healthy in the inland heights. The soil is very fertile.<p>
+            </div>
+        </section>
+        <section class="webdevR">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <!--the table and links with indication to open new tab when clicked-->
+                <li><a href="https://codepen.io/" target="_blank" rel="noopener noreferrer">Code Pen</a></li>
+                <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">Git Hub</a></li>
+                <li><a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Code Academy</a></li>
+                <li><a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a></li>
+                <li><a href="https://web.dev/?hl=es-419" target="_blank" rel="noopener noreferrer">Web Dev</a></li>
+                <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">Free Code </a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="currentyear">
+                &copy;<span id="actualyear">
+                </span>
+                Carlos Alvanez
+            </div>
+            <div class="footer"> <span id="lastM"></span></div>
+        </div>
+    </footer>
 </body>
+
 </html>
