@@ -13,13 +13,18 @@
         flex-direction: row;
     }
 
+
+
+
+
+    
     nav a {
         display: block;
         /* flex: 1 1 100%; */
     }
 
     nav a.active {
-        color: #ff3232;
+        color: #c06868;
     }
 
 }
