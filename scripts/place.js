@@ -22,3 +22,4 @@ await flow.startTimespan();
 await page.goto('https://example2.com');
 await page.goBack();
 await flow.endTimespan();
+
