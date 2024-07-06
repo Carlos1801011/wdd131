@@ -1,11 +1,4 @@
-
-const year = document.getElementById("actualyear");
 const lastModified = document.getElementById("lastM");
-
-const today = new Date();
-const currentYear = today.getFullYear();
-
-year.textContent = currentYear;
 
 const LastModifiedDate = new Date(document.lastModified);
 
