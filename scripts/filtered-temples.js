@@ -7,7 +7,7 @@ hamButton.addEventListener('click', () => {
 });
 
 // get current year
-document.getElementById("currentyear").innerText = new Date().getFullYear();
+document.getElementById("actualyear").innerText = new Date().getFullYear();
 
 
 
@@ -100,7 +100,7 @@ const temples = [
 		imageUrl:
 		"https://churchofjesuschristtemples.org/assets/img/temples/mendoza-argentina-temple/mendoza-argentina-temple-10403.jpg"
 	}
-	// Add more temple objects here...
+	// 
 ];
 
 
