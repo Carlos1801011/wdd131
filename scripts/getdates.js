@@ -15,3 +15,5 @@ const formattedDate = LastModifiedDate.toLocaleDateString(undefined, options);
 lastModified.textContent = `Last Modified on : ${formattedDate}`;
 //The color in the html text on the footer..
 lastModified.style.color = "white";
+
+document.getElementById("actualyear").innerText = new Date().getFullYear();
