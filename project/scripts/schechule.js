@@ -5,39 +5,32 @@ const fieldList = document.querySelector("#fieldlist");
 
 const tournaments = [
     {
-      id: "st-1234",
-      name: "Thunderball Cup",
-      datestart: "May 31 2024",
-      dateend: "June 28 2024",
-      numteams: 8
-    },
-    {
-      id: "st-1235",
+      id: "15",
       name: "Clinica ADESCA Ahuachapan",
-      datestart: "May 31 2024",
-      dateend: "June 21 2024",
-      numteams: 6
+      datestart: "5",
+      dateend: "2",
+      numteams: 2
     },
     {
-      id: "st-1236",
+      id: "10",
       name: "Clinica ADESCA Santa Ana",
-      datestart: "May 31 2024",
-      dateend: "July 14 2024",
-      numteams: 12
+      datestart: "3",
+      dateend: "1",
+      numteams: 5
     },
     {
-      id: "st-1237",
+      id: "12",
       name: "Clinica ADESCA Ataco",
-      datestart: "May 31 2024",
-      dateend: "June 12 2024",
-      numteams: 4
+      datestart: "2",
+      dateend: "5",
+      numteams: 2
     },
     {
-      id: "st-1238",
+      id: "7",
       name: "Clinica ADESCA Juayua",
-      datestart: "June 28 2024",
-      dateend: "Ago 14 2024",
-      numteams: 8
+      datestart: "2",
+      dateend: "1",
+      numteams: 0
     }
   ];
 
@@ -54,42 +47,25 @@ const tournaments = [
     {
       name: "Adesca Anexo 2",
       openhours: "Mon - Fri 19:00 - 23:30 PM",
-      adress: "Frias 279, temperley",
-      phone: "1173667500",
-      averagerating: 4.7,
-      ages: "all ages",
-      imgurl: "images/field1.webp"
-    },
-    {
-      name: "Oliden",
-      openhours: "Mon - Fri 19:00 - 23:30 PM",
-      adress: "Frias 279, temperley",
-      phone: "1173667500",
+      adress: "Santa ana, 2 Stret out",
+      phone: "+(503) 452-8965",
       averagerating: 4.5,
       ages: "all ages",
-      imgurl: "images/field1.webp"
+      imgurl: "images/adesca.jpg"
     },
     {
-      name: "Oliden",
-      openhours: "Mon - Fri 19:00 - 23:30 PM",
-      adress: "Frias 279, temperley",
-      phone: "1173667500",
-      averagerating: 4.1,
+      name: "Adesca Anexo 3",
+      openhours: "Mon - Sun 19:00 - 22:00 PM",
+      adress: "Ataco. #2-8 Central",
+      phone: "+(503)78-9684",
+      averagerating: 5.0,
       ages: "all ages",
-      imgurl: "images/field1.webp"
+      imgurl: "images/hour.jpg"
     },
-    {
-      name: "Oliden",
-      openhours: "Mon - Fri 19:00 - 23:30 PM",
-      adress: "Frias 279, temperley",
-      phone: "1173667500",
-      averagerating: 3.9,
-      ages: "all ages",
-      imgurl: "images/field1.webp"
-    }
+
 ];
 
-function createTournamentSelectList() {
+function createboxSelectList() {
   tournaments.forEach(t => {
     optElement = document.createElement("option");
     optElement.setAttribute("value", t.id);
@@ -99,7 +75,7 @@ function createTournamentSelectList() {
   });
 }
 
-createTournamentSelectList();
+createboxSelectList();
 
 function createFieldCards() {
   fields.forEach(f => {
